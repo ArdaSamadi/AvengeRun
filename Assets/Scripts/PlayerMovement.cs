@@ -73,6 +73,7 @@ public class PlayerMovement : MonoBehaviour
         alive = false;
         animator.SetBool("Barkhord", true);
         animator.SetBool("Running", false);
+        animator.SetBool("Jump", false);
         Invoke("Restart", 3);
         
         //animator.SetBool("Barkhord", false);
