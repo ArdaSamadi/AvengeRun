@@ -53,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
     {
         speed += 0.005f;
         HInput = Input.GetAxis("Horizontal");
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
             Invoke("OFFJUMP", jumptime);
